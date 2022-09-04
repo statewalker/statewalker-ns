@@ -19,20 +19,18 @@
     "mocha": "^10",
     "rollup": "^2"
   },
-  "module": "dist/index.js",
-  "main": "dist/index.js",
-  "jsdelivr": "dist/index-umd.min.js",
-  "unpkg": "dist/index-umd.min.js",
+  "module": "./index.js",
   "exports": {
-    "umd": "./dist/index-umd.min.js",
-    "default": "./dist/index.js"
+    "import": "./index.js",
+    "umd": "./index.js",
+    "default": "./index.js"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:statewalker/statewalker-ns.git"
   },
   "scripts": {
-    "eslint": "eslint src",
+    "eslint": "eslint ./index.js",
     "rollup": "rollup -c",
     "test": "mocha -R spec ./test/index.js && yarn eslint",
     "prepublishOnly": "rm -rf dist && yarn test && yarn rollup"

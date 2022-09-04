@@ -1,5 +1,5 @@
 import { default as expect } from 'expect.js';
-import ns from '../src/index.js';
+import ns from '../index.js';
 
 describe('ns', () => {
 
