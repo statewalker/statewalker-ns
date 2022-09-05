@@ -1,6 +1,6 @@
 {
   "name": "@statewalker/ns",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Common namespace for StateWalker projects",
   "keywords": [],
   "homepage": "https://github.com/statewalker/statewalker-ns",
@@ -13,7 +13,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "@statewalker/rollup": "^0.1",
+    "@statewalker/rollup": "^0.1.4",
     "eslint": "^8",
     "expect.js": "^0.3",
     "mocha": "^10",
